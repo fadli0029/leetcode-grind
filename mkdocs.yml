@@ -1,4 +1,69 @@
-site_name: My Docs
+site_name: Leetcode Grind
+site_url: https://fadli0029.github.io/leetcode-grind/
+
+nav:
+  - Home: 'index.md'
+  - Neetcode 150:
+    - 'Arrays & Hasing': 'topics/arrays_and_hashing.md'
 theme:
     name: material
+    font:
+      text: Source Sans Pro
+      code: Source Code Pro
+    features:
+      - header.autohide
+      - announce.dismiss
+      - navigation.tabs
+      - navigation.top
+      - navigation.tabs.sticky
+    icon:
+      admonition:
+        note: fontawesome/solid/note-sticky
+        abstract: fontawesome/solid/book
+        info: fontawesome/solid/circle-info
+        tip: fontawesome/solid/bullhorn
+        success: fontawesome/solid/check
+        question: fontawesome/solid/circle-question
+        warning: fontawesome/solid/triangle-exclamation
+        failure: fontawesome/solid/bomb
+        danger: fontawesome/solid/skull
+        bug: fontawesome/solid/robot
+        example: fontawesome/solid/flask
+        quote: fontawesome/solid/quote-left
 
+markdown_extensions:
+  - meta
+  - md_in_html
+  - def_list
+  - attr_list
+  - admonition
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.caret
+  - pymdownx.tilde
+  - pymdownx.details
+  - pymdownx.betterem
+  - pymdownx.snippets
+  - pymdownx.inlinehilite
+  - pymdownx.smartsymbols
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      use_pygments: true
+      linenums: true
+      linenums_style: table
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.arithmatex:
+      generic: true
