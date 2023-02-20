@@ -4,7 +4,22 @@ site_url: https://fadli0029.github.io/leetcode-grind/
 nav:
   - Home: 'index.md'
   - Neetcode 150:
-    - 'Arrays & Hasing': 'topics/arrays_and_hashing.md'
+    - 'Arrays & Hasing':
+        - 'arrays_and_hashing/contains_duplicate.md'
+        - 'arrays_and_hashing/valid_anagram.md'
+        - 'arrays_and_hashing/two_sum.md'
+        - 'arrays_and_hashing/group_anagrams.md'
+        - 'arrays_and_hashing/top_k_frequent_elements.md'
+        - 'arrays_and_hashing/product_of_array_except_self.md'
+        - 'arrays_and_hashing/valid_sudoku.md'
+        - 'arrays_and_hashing/encode_and_decode_strings.md'
+        - 'arrays_and_hashing/longest_consecutive_sequence.md'
+    - 'Two Pointers': 
+        - 'two_pointers/valid_palindrome.md'
+        - 'two_pointers/two_sum_2_input_array_is_sorted.md'
+        - 'two_pointers/3sum.md'
+        - 'two_pointers/container_with_most_water.md'
+        - 'two_pointers/trapping_rain_water.md'
 theme:
     name: material
     font:
