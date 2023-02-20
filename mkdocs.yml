@@ -4,6 +4,7 @@ site_url: https://fadli0029.github.io/leetcode-grind/
 nav:
   - Home: 'index.md'
   - Neetcode 150:
+    - 'template.md'
     - 'Arrays & Hasing':
         - 'arrays_and_hashing/contains_duplicate.md'
         - 'arrays_and_hashing/valid_anagram.md'
@@ -31,6 +32,8 @@ theme:
       - navigation.tabs
       - navigation.top
       - navigation.tabs.sticky
+      - content.code.copy
+      - content.code.annotate
     icon:
       admonition:
         note: fontawesome/solid/note-sticky
@@ -75,6 +78,9 @@ markdown_extensions:
       use_pygments: true
       linenums: true
       linenums_style: table
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
